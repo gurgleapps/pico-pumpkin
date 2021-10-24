@@ -1,0 +1,84 @@
+{
+"stareAndBlink": [
+    {"r":"straight","l":"straight","d":1},
+    {"r":"straightBlink1","l":"straightBlink1","d":0.02},
+    {"r":"straightBlink2","l":"straightBlink2","d":0.02},
+    {"r":"straightBlink3","l":"straightBlink3","d":0.02},
+    {"r":"all_off","l":"all_off","d":0.02},
+    {"r":"straightBlink2","l":"straightBlink2","d":0.02},
+    {"r":"straightBlink1","l":"straightBlink1","d":0.02},
+    {"r":"straight","l":"straight","d":0.02},
+    {"d":0.5,"bl":1,"br":1},
+    {"d":0.5,"bl":15,"br":15}
+],
+
+
+"downLeftABit": [
+    {"r":"straight","l":"straight","d":0.2},
+    {"r":"downLeft1","l":"downLeft1","d":2},
+    {"r":"straight","l":"straight","d":0.2}
+],
+
+"downRightABit":[
+    {"r":"straight","l":"straight","d":0.2},
+    {"r":"downRight1","l":"downRight1","d":2},
+    {"r":"straight","l":"straight","d":0.2}
+],
+
+"roll":[
+    {"r":"straight","l":"straight","d":0.2},
+    {"r":"left1","l":"left1","d":0.1},
+    {"r":"upLeft1","l":"upLeft1","d":0.1},
+    {"r":"upLeft","l":"upLeft","d":0.1},
+    {"r":"up2","l":"up2","d":0.1},
+    {"r":"upRight","l":"upRight","d":0.1},
+    {"r":"upRight1","l":"upRight1","d":0.1},
+    {"r":"right3","l":"right3","d":0.1},
+    {"r":"downRight","l":"downRight","d":0.1},
+    {"r":"downRight1","l":"downRight1","d":0.1},
+    {"r":"down3","l":"down3","d":0.1},
+    {"r":"downLeft","l":"downLeft","d":0.1},
+    {"r":"downLeftB","l":"downLeftB","d":0.1},
+    {"r":"left2","l":"left2","d":0.1},
+    {"r":"left1","l":"left1","d":0.1},
+    {"r":"straight","l":"straight","d":0.2}
+],
+
+"growEyes": [
+    {"r":"straight","l":"straight","d":0.6},
+    {"r":"straightX2","l":"straightX2","d":1},
+    {"r":"straight","l":"straight","d":1}
+],
+
+"ghosts1": [
+    {"r":"straight","l":"straight","d":0.02},
+    {"r":"ghost1","l":"ghost1","d":2.0},
+    {"r":"ghost2","l":"ghost2","d":2.0},
+    {"r":"straight","l":"straight","d":0.02},
+    {"d":1,"bl":1,"br":1},
+    {"d":2,"bl":15,"br":15}
+],
+
+  "winkLeft": [
+      {"l":"straight","d":2},
+      {"l":"straightBlink1","d":0.02},
+      {"l":"straightBlink2","d":0.02},
+      {"l":"straightBlink3","d":0.02},
+      {"l":"straightBlinkLine","d":0.1},
+      {"l":"straightBlink3","d":0.02},
+      {"l":"straightBlink2","d":0.02},
+      {"l":"straightBlink1","d":0.02},
+      {"l":"straight","d":0.02}
+],
+
+  "winkRight": [
+      {"l":"straight","d":2,"b":15},
+      {"l":"straightBlink1","d":0.02},
+      {"l":"straightBlink2","d":0.02},
+      {"l":"straightBlink3","d":0.02},
+      {"l":"straightBlinkLine","d":0.1},
+      {"l":"straightBlink3","d":0.02},
+      {"l":"straightBlink2","d":0.02},
+      {"l":"straightBlink1","d":0.02},
+      {"l":"straight","d":0.02}
+}
